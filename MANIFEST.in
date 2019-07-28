@@ -1,0 +1,6 @@
+include AUTHORS
+include ChangeLog
+include requirements.txt
+include README.md
+exclude .gitignore
+exclude .gitreview

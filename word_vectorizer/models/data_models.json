@@ -1,0 +1,47 @@
+[
+  {
+    "name": "word2vec_SBWC_spanish_300.txt.bz2",
+    "tech": "word2vec",
+    "dimensions": 300,
+    "language": "spanish",
+    "url": "http://cs.famaf.unc.edu.ar/~ccardellino/SBWCE/SBW-vectors-300-min5.txt.bz2",
+    "binary": false,
+    "description": "word2vec SBWC dim 300"
+  },
+  {
+    "name": "glove-twitter-200",
+    "tech": "glove",
+    "dimensions": 200,
+    "language": "english",
+    "url": "gensim",
+    "binary": "None",
+    "description": "Pre-trained vectors based on 2B tweets, 27B tokens, 1.2M vocab, uncased (https://nlp.stanford.edu/projects/glove/)."
+  },
+  {
+    "name": "glove-spanish-300.gz",
+    "tech": "glove",
+    "dimensions": 300,
+    "language": "spanish",
+    "url": "http://dcc.uchile.cl/~jperez/word-embeddings/glove-sbwc.i25.vec.gz",
+    "binary": false,
+    "description": "Glove in spanish"
+  },
+  {
+    "name": "glove-twitter-50.gz",
+    "tech": "glove",
+    "dimensions": 50,
+    "language": "spanish",
+    "url": "gensim",
+    "binary": false,
+    "description": "Glove from twitter"
+  },
+  {
+    "name": "dummy_word_to_vec",
+    "tech": "word2vec",
+    "dimensions": 4,
+    "language": "spanish",
+    "url": "https://drive.google.com/file/d/1f69Xg7ifC3cI2GMta6foxZswQiYLvTK5/view?usp=sharing",
+    "binary": false,
+    "description": "Dummy word2vec"
+  }
+]
